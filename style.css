@@ -105,8 +105,9 @@ margin-bottom: 18px;
 
 #card-box{
     width: 885px;
-    margin: 100px auto;
-
+    margin: 0px auto;
+    margin-bottom: 100px;
+    margin-top: 80px;
 }
 
 #card-box .title{
