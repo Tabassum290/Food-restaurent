@@ -225,19 +225,23 @@ opacity: .6;
 }
 /* Responsive For Mobile */
 @media screen and (max-width:576px){
-    body{
-    background-color: rgb(3, 67, 3); ;
+    html , body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden ;
+    background-color: rgb(3, 67, 3);
     }
     .navbar , #hero , #card-box ,#about-us{
         width: 100%;
         flex-direction: column;
+        margin-right: 20px;
     }
     .nav-list li{
         display: none;
     }
     .menu-bar{
        display: block;
-      width: 100%;
       margin-left: 350px;
       margin-top: -50px;
       color: white;
@@ -253,19 +257,20 @@ opacity: .6;
         align-items: center;
     }
     .title{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 800;
         text-align: center;
         margin-left: 10px;
         color: white;
         line-height: 30px;
+        margin-right: 20px;
     }
     .break{
         display: block;
     }
     .description{
         margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     #card-box .subtitle{
@@ -274,16 +279,18 @@ opacity: .6;
     #card-box .title{
         color: white;
         line-height: 40px;
+        margin-right: 20px;
     }
     .card-container{
-       max-width: 100%;
       flex-direction: column;
-      width: 393px;
+      width: 100%;
       align-items: center;
+      margin-right: 20px;
     }
     .card{
         margin-bottom: 20px;
         color: white;
+        margin-right: -20px;
     }
     .about-content{
         display: block;
@@ -292,6 +299,7 @@ opacity: .6;
     .about-img img{
         max-width: 390px;
         height: 300px;
+        margin-right: -10px;
     }
     .about-description{
         width: 100%;
@@ -317,6 +325,7 @@ opacity: .6;
     .hr{
         width: 380px;
         align-items: center;
+        margin-right: 20px;
     }
     .copy{
         width: 100%;
@@ -324,6 +333,7 @@ opacity: .6;
         color: antiquewhite;
         text-align: center;
         margin-bottom: 40px;
+        margin-right: 20px;
     }
 }
     
